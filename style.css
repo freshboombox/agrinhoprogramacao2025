@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garante que o body ocupe a altura total da viewport */
+    margin: 0;
+    background-color: #f0f0f0; /* Cor de fundo suave para a página */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+/* Estilo opcional para o container do jogo se você quiser adicionar bordas ou sombra */
+#game-container {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden; /* Garante que o canvas não "vaze" */
+}
+
+/* O canvas P5.js é gerado como um elemento <canvas> */
+canvas {
+    display: block; /* Remove o espaço extra abaixo do canvas */
+}
